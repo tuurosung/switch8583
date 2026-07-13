@@ -15,12 +15,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Tuurosung\\Iso8583\\": "src/"
+            "Tuurosung\\switch8583\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tuurosung\\Iso8583\\Tests\\": "tests/"
+            "Tuurosung\\switch8583\\Tests\\": "tests/"
         }
     },
     "scripts": {
