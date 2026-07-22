@@ -1,0 +1,8 @@
+parameters:
+    level: 8
+    paths:
+        - src
+    excludePaths:
+        # The Laravel provider references illuminate/* classes that are
+        # dev/suggest-only; analyse it in a project that has Laravel installed.
+        - src/Laravel/Iso8583ServiceProvider.php
